@@ -128,7 +128,7 @@ public class Hero extends Char {
 	private static final String TXT_WAIT	= "...";
 	private static final String TXT_SEARCH	= "search";
 	
-	public static final int STARTING_STR = 10;
+	public static final int STARTING_STR = 20;
 	
 	private static final float TIME_TO_REST		= 1f;
 	private static final float TIME_TO_SEARCH	= 2f;
@@ -161,7 +161,7 @@ public class Hero extends Char {
 	
 	public float awareness;
 	
-	public int lvl = 1;
+	public int lvl = 30;
 	public int exp = 0;
 	
 	private ArrayList<Mob> visibleEnemies; 
